@@ -26,21 +26,23 @@ public class MainActivity extends AppCompatActivity {
                 dlg.setTitle("골라봐");
                 //dlg.setMessage("내용임");
                 dlg.setIcon(R.mipmap.ic_launcher);
-
-                dlg.setSingleChoiceItems(versionArray, 0, new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialogInterface, int i) {
-                        button1.setText(versionArray[i]);
-                    }
-                });     // 라디오버튼 목록 대화상자
-
-//                dlg.setMultiChoiceItems(versionArray, checkArray, new DialogInterface.OnMultiChoiceClickListener() {
+                
+//
+//                dlg.setSingleChoiceItems(versionArray, 0, new DialogInterface.OnClickListener() {
 //                    @Override
-//                    public void onClick(DialogInterface dialogInterface, int i, boolean b) {
+//                    public void onClick(DialogInterface dialogInterface, int i) {
 //                        button1.setText(versionArray[i]);
 //                    }
-//                });     // 체크박스 목록 대화상자
-                
+//                });     // 라디오버튼 목록 대화상자
+
+
+                dlg.setMultiChoiceItems(versionArray, checkArray, new DialogInterface.OnMultiChoiceClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i, boolean isChecked) {
+                        button1.setText(versionArray[i]);
+                    }
+                });     // 체크박스 목록 대화상자
+
 //                dlg.setItems(versionArray, new DialogInterface.OnClickListener() {
 //                    @Override
 //                    public void onClick(DialogInterface dialogInterface, int i) {
@@ -48,7 +50,14 @@ public class MainActivity extends AppCompatActivity {
 //                    }
 //                });   // 기본적인 목록 대화상자
 
-                dlg.setPositiveButton("확인",null);
+//                dlg.setItems(versionArray, new DialogInterface.OnClickListener() {
+//                    @Override
+//                    public void onClick(DialogInterface dialogInterface, int i) {
+//                        button1.setText(versionArray[i]);
+//                    }
+//                }); // 기본적인 선택 상자
+
+                dlg.setPositiveButton("닫기",null);
                 dlg.show();
             }
         });
