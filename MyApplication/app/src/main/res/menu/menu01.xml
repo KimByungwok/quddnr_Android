@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/itemRotate"
+        android:title="버튼돌리기"/>
+
+    <item
+        android:id="@+id/itemSubSize"
+        android:title="버튼크기변경"/>
+</menu>
