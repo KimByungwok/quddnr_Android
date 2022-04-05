@@ -4,9 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/401ST000/quddnr_Android/220329Android/app/src/main/res/layout/activity_main.xml" value="0.3411458333333333" />
-        <entry key="..\:/Users/401ST000/quddnr_Android/220329Android/app/src/main/res/layout/dialog01.xml" value="0.33" />
-        <entry key="..\:/Users/401ST000/quddnr_Android/220329Android/app/src/main/res/layout/main01.xml" value="0.1" />
-        <entry key="..\:/Users/401ST000/quddnr_Android/220329Android/app/src/main/res/layout/toast01.xml" value="0.1" />
+        <entry key="..\:/Users/401ST000/quddnr_Android/220329Android/app/src/main/res/layout/dialog.xml" value="0.32916666666666666" />
+        <entry key="..\:/Users/401ST000/quddnr_Android/220329Android/app/src/main/res/layout/dialog01.xml" value="0.1" />
+        <entry key="..\:/Users/401ST000/quddnr_Android/220329Android/app/src/main/res/layout/dialog444.xml" value="0.16302083333333334" />
+        <entry key="..\:/Users/401ST000/quddnr_Android/220329Android/app/src/main/res/layout/main01.xml" value="0.25" />
+        <entry key="..\:/Users/401ST000/quddnr_Android/220329Android/app/src/main/res/layout/toast01.xml" value="0.25" />
       </map>
     </option>
   </component>

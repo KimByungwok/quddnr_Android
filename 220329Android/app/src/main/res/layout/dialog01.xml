@@ -2,16 +2,19 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="사용자 이름"/>
+        android:text="사용자 이름"
+        android:textSize="20dp"/>
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/dldEdt1"/>
+        android:id="@+id/dldEdt1"
+        android:hint="여기에 이름을 입력하세요...."/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -20,5 +23,6 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/dldEdt2"/>
+        android:id="@+id/dldEdt2"
+        android:hint="여기에 메일 주소를 입력하세요...."/>
 </LinearLayout>
