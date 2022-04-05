@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/qudwok_android.iml" filepath="$PROJECT_DIR$/.idea/qudwok_android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/22.04.05.iml" filepath="$PROJECT_DIR$/.idea/modules/22.04.05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/22.04.05.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/22.04.05.app.iml" />
     </modules>
   </component>
 </project>
